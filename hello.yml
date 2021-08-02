@@ -1,4 +1,4 @@
 ---
 - hosts: localhost
   tasks:
-    - debug: msg="Hello There"
+    - debug: msg="Hello {{ name }}"
